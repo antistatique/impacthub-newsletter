@@ -89,7 +89,7 @@
                     <a href="*|ARCHIVE|*"><img src="impact-hub-logo.gif" width="150" height="55" border="0"></a>
                   </td>
                   <td align="right">
-                    <a href="*|ARCHIVE|*" style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;">View this email in your browser</a>
+                    <a href="*|ARCHIVE|*" style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;" mc:edit="browser_view">View this email in your browser</a>
                   </td>
                   <td width="15">
                     <img src="px.gif" width="15" height="15" border="0">
@@ -117,13 +117,13 @@
                     <img src="px.gif" width="15" height="15" border="0">
                   </td>
                   <td>
-                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:26px;font-weight:bold;">
+                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:26px;font-weight:bold;" mc:edit="edito_title">
                       Hello
                     </div>
-                    <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
+                    <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="edito_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <img src="sign_geneva.png">
+                    <a href="http://geneva.impacthub.net/"><img src="sign_geneva.png" border="0"></a>
                   </td>
                   <td width="15">
                     <img src="px.gif" width="15" height="15" border="0">
@@ -157,7 +157,7 @@
                     <img src="px.gif" width="15" height="15" border="0">
                   </td>
                   <td>
-                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;">
+                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;" mc:edit="initiative_title">
                       HIGHLIGHTED INITITIVES
                     </div>
                   </td>
@@ -178,26 +178,28 @@
 
 
                     <!-- Repeated inititatives -->
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
-                      <tr>
-                        <td width="50%" valign="top">
-                          <img src="highlighted.png" width="100%">
-                        </td>
-                        <td width="20">
-                          <img src="px.gif" width="20" height="20" border="0">
-                        </td>
-                        <td valign="top">
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                            <p style="margin:0;"><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ir</p>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="3">
-                          <img src="px.gif" width="15" height="15" border="0">
-                        </td>
-                      </tr>
-                    </table>
+                    <div mc:repeatable class="initiatives">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+                        <tr>
+                          <td width="50%" valign="top">
+                            <img src="highlighted.png" width="100%" mc:edit="initiative_photo">
+                          </td>
+                          <td width="20">
+                            <img src="px.gif" width="20" height="20" border="0">
+                          </td>
+                          <td valign="top">
+                            <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="initiative_texte">
+                              <p style="margin:0;"><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ir</p>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="3">
+                            <img src="px.gif" width="15" height="15" border="0">
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
                     <!-- //Repeated inititatives -->
 
                   </td>
@@ -234,7 +236,7 @@
                     <img src="px.gif" width="15" height="15" border="0">
                   </td>
                   <td>
-                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;">
+                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;" mc:edit="event_title">
                       WHAT'S UP AT THE IMPACT HUB
                     </div>
                   </td>
@@ -254,55 +256,57 @@
                   <td>
 
                     <!-- Repeated event -->
-                    <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells">
-                      <tr>
-                        <td>
-                          <img src="event.png" width="100%" border="0">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="px.gif" height="5">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                            <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="px.gif" height="15">
-                        </td>
-                      </tr>
-                    </table>
+                    <div mc:repeatable class="events">
+                      <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells">
+                        <tr>
+                          <td>
+                            <img src="event.png" width="100%" border="0" mc:edit="event1_photo">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="px.gif" height="5">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="event1_text">
+                              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="px.gif" height="15">
+                          </td>
+                        </tr>
+                      </table>
 
-                    <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells" style="margin-left:3%;">
-                      <tr>
-                        <td>
-                          <img src="event.png" width="100%" border="0">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="px.gif" height="5">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                            <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="px.gif" height="15">
-                        </td>
-                      </tr>
-                    </table>
+                      <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells" style="margin-left:3%;">
+                        <tr>
+                          <td>
+                            <img src="event.png" width="100%" border="0" mc:edit="event2_photo">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="px.gif" height="5">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="event2_text">
+                              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="px.gif" height="15">
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
                     <!-- Repeated event -->
 
                   </td>
@@ -340,7 +344,7 @@
                     <img src="px.gif" width="15" height="15" border="0">
                   </td>
                   <td>
-                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;">
+                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;" mc:edit="members_title">
                       INTRODUCING A FEW OF OUR LOVELY MEMBERS
                     </div>
                   </td>
@@ -360,47 +364,49 @@
                   <td>
 
                     <!-- Repeated members -->
-                    <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells">
-                      <tr>
-                        <td width="40%" valign="top">
-                          <img src="member.png" width="100%" border="0">
-                        </td>
-                        <td width="10">
-                          <img src="px.gif" width="10" height="10" border="0">
-                        </td>
-                        <td valign="top">
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                            <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="px.gif" height="15">
-                        </td>
-                      </tr>
-                    </table>
+                    <div mc:repeatable class="members">
+                      <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells">
+                        <tr>
+                          <td width="40%" valign="top">
+                            <img src="member.png" width="100%" border="0" mc:edit="member1_photo">
+                          </td>
+                          <td width="10">
+                            <img src="px.gif" width="10" height="10" border="0">
+                          </td>
+                          <td valign="top">
+                            <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="member1_description">
+                              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="px.gif" height="15">
+                          </td>
+                        </tr>
+                      </table>
 
-                    <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells" style="margin-left:3%;">
-                      <tr>
-                        <td width="40%" valign="top">
-                          <img src="member.png" width="100%" border="0">
-                        </td>
-                        <td width="10">
-                          <img src="px.gif" width="10" height="10" border="0">
-                        </td>
-                        <td valign="top">
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                            <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="px.gif" height="15">
-                        </td>
-                      </tr>
-                    </table>
+                      <table width="48%" cellpadding="0" cellspacing="0" border="0" align="left" class="cells" style="margin-left:3%;">
+                        <tr>
+                          <td width="40%" valign="top">
+                            <img src="member.png" width="100%" border="0" mc:edit="member2_photo">
+                          </td>
+                          <td width="10">
+                            <img src="px.gif" width="10" height="10" border="0">
+                          </td>
+                          <td valign="top">
+                            <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="member2_description">
+                              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img src="px.gif" height="15">
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
                     <!-- Repeated members -->
 
                   </td>
@@ -425,7 +431,7 @@
                 </tr>
                 <tr>
                   <td align="center">
-                    <img src="not-a-member-yet.gif" width="70%">
+                    <a href="http://geneva.impacthub.net/join-impact-hub/membership/"><img src="not-a-member-yet.gif" width="70%" mc:edit="not_member_image"></a>
                   </td>
                 </tr>
                 <tr>
@@ -435,7 +441,7 @@
                 </tr>
                 <tr>
                   <td align="center">
-                    <div style="color:#ffffff;line-height:1.4em;font-family:Helvetica,Arial;font-size:16px;">
+                    <div style="color:#ffffff;line-height:1.4em;font-family:Helvetica,Arial;font-size:16px;" mc:edit="not_member_yet">
                       <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
                     </div>
                   </td>
@@ -461,7 +467,7 @@
                     <img src="px.gif" width="15" height="15" border="0">
                   </td>
                   <td>
-                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;">
+                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;" mc:edit="stories_title">
                       STORIES FROM THE GLOBAL NETWORK
                     </div>
                   </td>
@@ -480,28 +486,29 @@
                   </td>
                   <td>
 
-
-                    <!-- Repeated stories -->
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
-                      <tr>
-                        <td width="30%" valign="top">
-                          <img src="highlighted.png" width="100%">
-                        </td>
-                        <td width="20">
-                          <img src="px.gif" width="20" height="20" border="0">
-                        </td>
-                        <td valign="top">
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                            <p style="margin:0;"><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ir</p>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="3">
-                          <img src="px.gif" width="15" height="15" border="0">
-                        </td>
-                      </tr>
-                    </table>
+                    <div mc:repeatable class="other_stories">
+                      <!-- Repeated stories -->
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+                        <tr>
+                          <td width="30%" valign="top">
+                            <img src="highlighted.png" width="100%" mc:edit="stories_image">
+                          </td>
+                          <td width="20">
+                            <img src="px.gif" width="20" height="20" border="0">
+                          </td>
+                          <td valign="top">
+                            <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="stories_texte">
+                              <p style="margin:0;"><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ir</p>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="3">
+                            <img src="px.gif" width="15" height="15" border="0">
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
                     <!-- //Repeated stories -->
 
                   </td>
@@ -517,51 +524,53 @@
               </table>
 
               <!-- Other news repeated -->
-              <table width="100%" height="2" cellpadding="0" cellspacing="0" border="0" bgcolor="#EAEBEB">
-                <tr height="2">
-                  <td height="2">
-                    <img src="px.gif" width="2" height="2" border="0">
-                  </td>
-                </tr>
-              </table>
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
-                <tr>
-                  <td colspan="3">
-                    <img src="px.gif" width="15" height="15" border="0">
-                  </td>
-                </tr>
-                <tr>
-                  <td width="15">
-                    <img src="px.gif" width="15" height="15" border="0">
-                  </td>
-                  <td>
-                    <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;">
-                      Some othe news
-                    </div>
-                  </td>
-                  <td width="15">
-                    <img src="px.gif" width="15" height="15" border="0">
-                  </td>
-                </tr>
-                <tr>
-                  <td width="15">
-                    <img src="px.gif" width="15" height="15" border="0">
-                  </td>
-                  <td>
-                    <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;">
-                      <p style="margin:0;"><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ir</p>
-                    </div>
-                  </td>
-                  <td width="15">
-                    <img src="px.gif" width="15" height="15" border="0">
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    <img src="px.gif" width="15" height="15" border="0">
-                  </td>
-                </tr>
-              </table>
+              <div mc:repeatable class="other_news">
+                <table width="100%" height="2" cellpadding="0" cellspacing="0" border="0" bgcolor="#EAEBEB">
+                  <tr height="2">
+                    <td height="2">
+                      <img src="px.gif" width="2" height="2" border="0">
+                    </td>
+                  </tr>
+                </table>
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+                  <tr>
+                    <td colspan="3">
+                      <img src="px.gif" width="15" height="15" border="0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="15">
+                      <img src="px.gif" width="15" height="15" border="0">
+                    </td>
+                    <td>
+                      <div style="color:#812927;line-height:1.4em;font-family:Helvetica,Arial;font-size:22px;font-weight:bold;" mc:edit="other_news_title">
+                        Some othe news
+                      </div>
+                    </td>
+                    <td width="15">
+                      <img src="px.gif" width="15" height="15" border="0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="15">
+                      <img src="px.gif" width="15" height="15" border="0">
+                    </td>
+                    <td>
+                      <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:14px;" mc:edit="other_news_content">
+                        <p style="margin:0;"><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ir</p>
+                      </div>
+                    </td>
+                    <td width="15">
+                      <img src="px.gif" width="15" height="15" border="0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">
+                      <img src="px.gif" width="15" height="15" border="0">
+                    </td>
+                  </tr>
+                </table>
+              </div>
               <!-- // Other news repeated -->
 
               <!-- Footer -->
@@ -586,13 +595,13 @@
                           <img src="px.gif" width="15" height="15" border="0">
                         </td>
                         <td width="40%" valign="top">
-                          <img src="impact-hub-logo.gif" width="100%">
+                          <a href="http://geneva.impacthub.net/"><img src="impact-hub-logo.gif" width="100%" mc:edit="footer_logo"></a>
                         </td>
                         <td width="15">
                           <img src="px.gif" width="15" height="15" border="0">
                         </td>
                         <td>
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;">
+                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;" mc:edit="footer_address">
                           <strong style="color:#812927">Impact Hub Geneva</strong><br/>
                           1 rue Fendt<br/>
                           1201 Geneva
@@ -607,9 +616,9 @@
                           <img src="px.gif" width="15" height="15" border="0">
                         </td>                      
                         <td valign="top" align="left">
-                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;">
+                          <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;" mc:edit="footer_link">
                             <a href="http://geneva.impacthub.net/">geneva.impacthub.net</a><br/>
-                            <a href="https://www.facebook.com/impacthubgeneva">www.facebook.com/impacthubgeneva</a><br/>
+                            <a href="https://www.facebook.com/impacthubgeneva">facebook.com/impacthubgeneva</a><br/>
                             <a href="http://www.impacthub.net/">www.impacthub.net</a>
                           </div>
                         </td>
@@ -624,9 +633,44 @@
                   <td>
                     <img src="px.gif" width="15" height="15" border="0">
                   </td>
-                </tr>                
+                </tr>              
               </table> 
+        
+            <!-- powered by -->
+             <table width="100%" height="2" cellpadding="0" cellspacing="0" border="0" bgcolor="#EAEBEB">
+                <tr height="2">
+                  <td height="2">
+                    <img src="px.gif" width="2" height="2" border="0">
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" height="20" cellpadding="0" cellspacing="0" border="0" bgcolor="#EAEBEB">
+                <tr>
+                  <td align="right">
+                    <div style="color:#222222;line-height:1.4em;font-family:Helvetica,Arial;font-size:12px;">
+                      Newsletter crafted by <a href="http://antistatique.net" style="color:#FF00AA">Antistatique</a>
+                    </div>
+                  </td>
+                </tr>  
+              </table>
 
+
+              <!-- Unsubscribe -->
+              <table width="100%" height="2" cellpadding="0" cellspacing="0" border="0" bgcolor="#EAEBEB">
+                              <tr>
+                  <td>
+                    <img src="px.gif" width="15" height="15" border="0">
+                  </td>
+                </tr>  
+                <tr>
+                  <td align="center">
+                     <div style="color:#222222;line-height:2em;font-family:Helvetica,Arial;font-size:12px;" mc:edit="footer">
+                      *|LIST:DESCRIPTION|* <br>
+                      <a href="*|UNSUB|*">Désinscrivez-vous</a> de notre newsletter.<br>
+                      </div>
+                  </td>
+                </tr>
+              </table>
 
             </td>
           </tr>
