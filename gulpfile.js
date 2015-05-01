@@ -13,3 +13,7 @@ var gulp          = require('gulp'),
 require(config.tasks + 'server')(gulp, $, config, browserSync, runSequence);   // $ gulp serve
 require(config.tasks + 'gh-pages')(gulp, $, config);                           // $ gulp deploy
 
+/**
+ * Default task
+ */
+gulp.task('default', ['serve']);
