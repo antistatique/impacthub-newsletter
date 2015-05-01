@@ -6,8 +6,7 @@ var gulp          = require('gulp'),
     $             = require('gulp-load-plugins')(),
     config        = require('./gulp_config.json'),
     browserSync   = require('browser-sync'),
-    runSequence   = require('run-sequence'),
-    argv          = require('yargs').argv,
+    runSequence   = require('run-sequence');
 
 
 require(config.tasks + 'server')(gulp, $, config, browserSync, runSequence);   // $ gulp serve

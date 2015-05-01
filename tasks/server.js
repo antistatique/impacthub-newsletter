@@ -5,7 +5,7 @@ module.exports = function(gulp, $, config, browserSync, runSequence) {
  /**
   * Serve
   */
-  gulp.task('serve', ['default'], function () {
+  gulp.task('serve', function () {
     browserSync({
       server: {
         baseDir: [config.app.basedir],
@@ -14,10 +14,10 @@ module.exports = function(gulp, $, config, browserSync, runSequence) {
       notify: false
     });
     gulp.watch([
-      config.assets + '**/*.html',
+      '**/*.html',
     ], function() {
-      runSequence(reload);
+      reload();
     });
   });
 
-}
+};
